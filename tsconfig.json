@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // 目标语言的版本
+    },
+    
+    "module": "CommonJS", // 生成代码的模板标准
+}
