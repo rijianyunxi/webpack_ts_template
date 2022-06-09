@@ -29,6 +29,10 @@ module.exports = {
                         }
                     }
                 ]
+            },
+            {
+                test: /\.vue$/i,
+                use: ["vue-loader"]
             }
         ]
     },
@@ -43,5 +47,8 @@ module.exports = {
     ],
     resolve: {
         extensions: ['.ts', '.js']
+    },
+    resolveLoader: {
+        modules: ["node_modules", "modules"]
     }
 }
