@@ -5,7 +5,7 @@ interface Obj {
   eat?: boolean;
 }
 
-let song: Obj = {
+let song : Obj = {
   name: "song",
   age: 24,
   habit: "eat",
