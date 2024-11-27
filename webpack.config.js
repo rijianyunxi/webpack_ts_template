@@ -11,13 +11,7 @@ module.exports = {
         filename: "bundle.js"
     },
     module: {
-        rules: [{
-                test: /\.ts$/,
-                use: [
-                    { loader: "ts-loader" }
-                ],
-                exclude: /node-module/
-            },
+        rules: [
             {
                 test: /\.css$/,
                 use: [
@@ -42,6 +36,6 @@ module.exports = {
         })
     ],
     resolve: {
-        extensions: ['.ts', '.js']
+        extensions: [ '.js']
     }
 }
